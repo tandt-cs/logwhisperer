@@ -1,0 +1,10 @@
+# Devpost learning context (keeps personal learning context out of commits)
+/devpost/learner-profile.md
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
