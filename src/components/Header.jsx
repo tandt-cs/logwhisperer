@@ -22,7 +22,7 @@ export default function Header() {
       <div className="flex items-center gap-4 text-xs font-mono text-[#8b949e]">
         <div className="hidden sm:flex items-center gap-2 text-[#7d8590]">
           <Zap size={13} className="text-[#d29922]" />
-          <span>Gemini 2.5 Flash</span>
+          <span>gemini-4-argon</span>
         </div>
         <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0d1117] border border-[#30363d]">
           <span className="w-2 h-2 rounded-full bg-[#3fb950] animate-pulse"></span>

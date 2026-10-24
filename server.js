@@ -88,7 +88,8 @@ app.post('/api/analyze', async (req, res) => {
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.5-flash",
+      //model: "gemini-3.6-flash",
+      model: "gemini-4-argon",
       generationConfig: {
         responseMimeType: "application/json",
         responseSchema: logAnalysisSchema,

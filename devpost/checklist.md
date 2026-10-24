@@ -10,7 +10,7 @@ Build mode: fast
 ## Slices
 
 - [x] **1. End-to-end scaffold with working Gemini API proxy and live analysis**
-  Becomes usable: A running web app where pasting a raw stack trace sends it to the local Express backend, prompts Gemini 2.5 Flash using strict JSON schema, and receives the structured 3-part diagnosis data.
+  Becomes usable: A running web app where pasting a raw stack trace sends it to the local Express backend, prompts gemini-4-argon using strict JSON schema, and receives the structured 3-part diagnosis data.
   Why now: Risk first and kernel early. Bootstraps the project (Vite + React + Tailwind + Express + `@google/genai`), proves the Gemini structured schema integration works, and verifies that real error logs get decrypted without conversational fluff on step 1.
   PRD ref: `prd.md > The Core Journey` (steps 1–5), `prd.md > 3. AI Analysis & Loading Feedback`
   Spec ref: `spec.md > Stack`, `spec.md > External Services and Dependencies`, `spec.md > Components > server.js`

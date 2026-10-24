@@ -65,7 +65,7 @@ export default function OutputPane({
               <span className="w-2.5 h-4 bg-[#58a6ff] animate-pulse inline-block"></span>
             </div>
             <p className="text-xs text-[#8b949e] mt-2 font-mono">
-              Prompting Gemini 2.5 Flash with structured schema to extract root cause & actionable fixes
+              Prompting gemini-4-argon with structured schema to extract root cause & actionable fixes
             </p>
           </div>
         )}
