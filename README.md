@@ -27,7 +27,7 @@ You paste a raw log, hit analyze, and immediately get a clean, 3-part structured
 
 * **Frontend:** React 19, Vite, Tailwind CSS, Lucide Icons.
 * **Backend:** Node.js, Express, dotenv, cors.
-* **AI Provider:** Google Gemini API (`gemini-2.5-flash`) via `@google/genai`.
+* **AI Provider:** Google Gemini API (`gemini-4-argon`) via `@google/genai`.
 
 ## 🚀 Getting Started
 
