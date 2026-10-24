@@ -6,5 +6,6 @@
 .env.*
 !.env.example
 
-# Dependencies
+# Dependencies & Build Outputs
 node_modules/
+dist/
