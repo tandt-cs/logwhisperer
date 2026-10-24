@@ -9,7 +9,7 @@ Build mode: fast
 
 ## Slices
 
-- [ ] **1. End-to-end scaffold with working Gemini API proxy and live analysis**
+- [x] **1. End-to-end scaffold with working Gemini API proxy and live analysis**
   Becomes usable: A running web app where pasting a raw stack trace sends it to the local Express backend, prompts Gemini 2.5 Flash using strict JSON schema, and receives the structured 3-part diagnosis data.
   Why now: Risk first and kernel early. Bootstraps the project (Vite + React + Tailwind + Express + `@google/genai`), proves the Gemini structured schema integration works, and verifies that real error logs get decrypted without conversational fluff on step 1.
   PRD ref: `prd.md > The Core Journey` (steps 1–5), `prd.md > 3. AI Analysis & Loading Feedback`
@@ -19,7 +19,7 @@ Build mode: fast
   Learner check: Open `http://localhost:5173`, paste an error log, click Analyze, and verify that real analysis data is returned.
   Commit: `feat: bootstrap project and implement Gemini structured log analysis end-to-end`
 
-- [ ] **2. Polished dark terminal IDE layout with sample error loader and loading states**
+- [x] **2. Polished dark terminal IDE layout with sample error loader and loading states**
   Becomes usable: The split-pane IDE interface is fully rendered with dark mode theme, header branding with live online status, the "Load Sample Error" 1-click helper, custom scrollbars, and the animated `[ANALYZING] Decrypting stack trace...` terminal loading state.
   Why now: Delivers the distinct visual and interactive experience defined in the PRD, and makes the 60-second video demo seamless with the sample loader.
   PRD ref: `prd.md > Screens and Layout`, `prd.md > Look and Feel`, `prd.md > 1. Raw Log Input & Sample Pre-loader`, `prd.md > 3. AI Analysis & Loading Feedback`
@@ -41,7 +41,7 @@ Build mode: fast
 
 ## Hands-on Checkpoints
 
-- [ ] Early usable behavior explored — Slice 1: End-to-end Gemini analysis verified
+- [x] Early usable behavior explored — Slice 1: End-to-end Gemini analysis verified
 - [ ] Final kick-the-tires exploration and feedback completed
 
 ## Final Review
