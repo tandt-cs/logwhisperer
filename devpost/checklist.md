@@ -29,7 +29,7 @@ Build mode: fast
   Learner check: Click "Load Sample Error", observe the multi-line error fill the textarea, and click "Analyze" to see the terminal loading animation.
   Commit: `feat: add split-pane terminal UI, sample log loader, and animated loading states`
 
-- [ ] **3. Three-tier diagnosis terminal cards with 1-click snippet copy and full error/edge handling**
+- [x] **3. Three-tier diagnosis terminal cards with 1-click snippet copy and full error/edge handling**
   Becomes usable: The right pane renders three distinct terminal cards (The Translation, The Root Cause, The Fix). Code snippets in The Fix card have a working 1-click "Copy" button that toggles to `✓ Copied!`. Empty/short inputs show amber validation warnings, and API failures render the red terminal error card with a retry option.
   Why now: Closes the core loop and polishes the user experience to the exact acceptance criteria in the PRD.
   PRD ref: `prd.md > 4. Three-Tier Diagnosis Rendering`, `prd.md > 2. Input Validation`, `prd.md > States and Boundaries`
